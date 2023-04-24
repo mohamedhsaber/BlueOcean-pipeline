@@ -15,7 +15,7 @@ pipeline {
           }
         }
 
-        stage('Test 2') {
+        stage('New stage) {
           steps {
             echo 'Hassan'
           }
