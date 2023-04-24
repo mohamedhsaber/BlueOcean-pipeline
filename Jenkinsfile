@@ -11,13 +11,13 @@ pipeline {
       parallel {
         stage('Stages') {
           steps {
-            echo 'Print test 1'
+            echo 'Mohamed'
           }
         }
 
         stage('Test 2') {
           steps {
-            echo 'Print Test 2'
+            echo 'Hassan'
           }
         }
 
